@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project MasterLibrary ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../General.cpp'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.0/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.0/include" --advice:power=all --define=__MSP430G2211__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="General.pp"  "../General.cpp"
+'Finished building: ../General.cpp'
+' '
+'Building target: MasterLibrary.lib'
+'Invoking: MSP430 Archiver'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.0/bin/ar430" r "MasterLibrary.lib" "./General.obj" 
+  ==>  new archive 'MasterLibrary.lib'
+  ==>  building archive 'MasterLibrary.lib'
+'Finished building target: MasterLibrary.lib'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project _MasterLibrary ****
+
+C:\ti\ccsv5\utils\bin\gmake -k all 
+'Building file: ../Timer.cpp'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.0/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.0/include" --advice:power=all --define=__MSP430G2231__ --diag_warning=225 --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="Timer.pp"  "../Timer.cpp"
+'Finished building: ../Timer.cpp'
+' '
+'Building target: _MasterLibrary.lib'
+'Invoking: MSP430 Archiver'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.0/bin/ar430" r "_MasterLibrary.lib" "./Timer.obj" "./Port.obj" "./Pin.obj" "./MasterClock.obj" "./General.obj" "./ADC10.obj" 
+  ==>  new archive '_MasterLibrary.lib'
+  ==>  building archive '_MasterLibrary.lib'
+'Finished building target: _MasterLibrary.lib'
+' '
+
+**** Build Finished ****

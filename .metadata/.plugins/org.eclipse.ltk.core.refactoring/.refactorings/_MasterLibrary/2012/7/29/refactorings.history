@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;_MasterLibrary/General.cpp&apos; to &apos;General.c&apos;" description="Rename resource &apos;General.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="General.cpp" name="General.c" stamp="1342812763776" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;_MasterLibrary/General.c&apos; to &apos;General.cpp&apos;" description="Rename resource &apos;General.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="General.c" name="General.cpp" stamp="1342814264556" updateReferences="true"/>
+</session>
